@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.button {
+  font-size: 24px;
+  line-height: 28px;
+  padding: 8px 0;
+  max-width: 100px;
+  width: 100%;
+}
+
+@media screen and (max-width: 568px) {
+  .title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
