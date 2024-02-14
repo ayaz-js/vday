@@ -50,9 +50,9 @@ function App() {
 
   return (
     <div>
-      <img src="/public/love-red.png" alt="" className="love-red" />
-      <img src="/public/paralax-1.png" alt="" className="paralax" />
-      <img src="/public/love-orange.png" alt="" className="love-orange" />
+      <img src="/love-red.png" alt="" className="love-red" />
+      <img src="/paralax-1.png" alt="" className="paralax" />
+      <img src="/love-orange.png" alt="" className="love-orange" />
       <h1 className="title">{randomLoveMessage}</h1>
       <button onClick={handleButtonClick} className="button">
         {randomButtonEmoji}
